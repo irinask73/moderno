@@ -273,15 +273,16 @@
   max-width: 370px;
   text-align: center;
   padding: 0 15px;
-  &:hover{
-    .advantages__item-images{
+  &:hover {
+    .advantages__item-images {
       background-color: $green;
     }
-    .advantages__item-title{
+    .advantages__item-title {
       color: $green;
     }
-    .advantages__item-images{
-      g, style{
+    .advantages__item-images {
+      g,
+      style {
         fill: #fff;
       }
     }
@@ -295,33 +296,71 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto 30px;
-    transition: all .3s;
+    transition: all 0.3s;
   }
   &-title {
     margin-bottom: 25px;
     color: #fff;
     @include f500;
     font-size: 24px;
-    transition: all .3s;
+    transition: all 0.3s;
   }
   &-text {
     font-size: 15px;
   }
 }
-.icosvg1{
-  svg{
+.icosvg1 {
+  svg {
     width: 70px;
   }
 }
-.icosvg2{
-  svg{
+.icosvg2 {
+  svg {
     width: 70px;
   }
 }
-.icosvg3{
-  svg{
+.icosvg3 {
+  svg {
     width: 86px;
   }
 }
 
 // end adventages
+//start autors
+.author {
+  background-image: url(../images/author-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 761px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__box {
+    max-width: 650px;
+    width: 100%;
+    min-height: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $green;
+  }
+  &__title{
+font-size: 30px;
+line-height: 30px;
+color: #fff;
+margin-right: 45px;
+max-width: 260px;
+span{
+  @include f700;
+}
+  }
+  &__link{
+font-size: 18px;
+line-height: 36px;
+padding: 14px 40px;
+background-color: #fff;
+  }
+}
+
+//end autors

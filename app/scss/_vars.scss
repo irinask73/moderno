@@ -12,4 +12,5 @@ $grey:#f4f6f5;
 @mixin f700{
     font-family: 'Robboto', sans-serif;
     font-weight: 700;
+    color: $bg;
 }

@@ -572,6 +572,9 @@
   margin-bottom: 30px;
   width: 270px;
 }
+.aside__item:last-child{
+  margin-bottom: 0;
+}
 .aside__title {
   border-bottom: 1px solid #dde3e8;
   font-size: 20px;
@@ -799,7 +802,7 @@ button.icon-sort-amount-desc {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 73px;
 }
 .pagination__list {
   li {

@@ -6,6 +6,10 @@ $grey:#f4f6f5;
 $tomato: #ef6c00;
 $yellow: #fcb322;
 
+@mixin f300{
+    font-family: 'Robboto', sans-serif;
+    font-weight: 300;
+}
 @mixin f500{
     font-family: 'Robboto', sans-serif;
     font-weight: 500;
@@ -15,4 +19,9 @@ $yellow: #fcb322;
     font-family: 'Robboto', sans-serif;
     font-weight: 700;
     color: $bg;
+}
+@mixin icon-pos-centr{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

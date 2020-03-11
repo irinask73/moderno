@@ -1785,7 +1785,6 @@ button.icon-sort-amount-desc {
   .tabs {
     max-width: 270px;
     width: 100%;
-
     margin-right: 30px;
     border: 1px solid #d7d7d7;
     border-bottom: none;
@@ -1865,6 +1864,38 @@ button.icon-sort-amount-desc {
     border: 1px solid #dedede;
     padding: 0 10px;
     color: #707070;
+  }
+  .jq-selectbox {
+    max-width: 540px;
+    width: 100%;
+  }
+  .jq-selectbox__select {
+    height: 40px;
+    padding: 0 18px;
+    border: 1px solid #d7d7d7;
+    border-bottom-color: #d7d7d7;
+    border-radius: 0;
+    background: #f9f9f9;
+    box-shadow: none;
+    font-family: "Roboto-Regular", sans-serif;
+    color: #707070;
+    text-shadow: none;
+    line-height: 40px;
+  }
+  
+  .jq-selectbox__trigger-arrow {
+    border: none;
+    top: 0;
+    right: 20px;
+    line-height: 40px;
+    font-size: 15px;
+    &::before{
+      font-family: 'icomoon';
+      content: "\f0d7";
+    }
+  }
+  .jq-selectbox__trigger {
+    border-left: none;
   }
 }
 //end settings

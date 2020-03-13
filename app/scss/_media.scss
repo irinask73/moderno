@@ -74,7 +74,6 @@
     display: none;
   }
 }
-
 @media (max-width: 1150px) {
   .products .product__item {
     flex-basis: calc(50% - 30px);
@@ -94,7 +93,6 @@
     display: none;
   }
 }
-
 @media (max-width: 1020px) {
   .tutorial__inner {
     margin-left: -20px;
@@ -248,7 +246,6 @@
     }
   }
 }
-
 @media (max-width: 740px) {
   .page-404__404 {
     font-size: 200px;
@@ -283,7 +280,6 @@
     margin-bottom: 20px;
   }
 }
-
 @media (max-width: 640px) {
   .tutorial__item {
     flex-basis: 100%;
@@ -331,7 +327,6 @@
     max-width: 100%;
   }
 }
-
 @media (max-width: 600px) {
   .page-404__inner {
     padding: 0 15px;
@@ -413,7 +408,6 @@
     height: 300px;
   }
 }
-
 @media (max-width: 540px) {
   .product__slider .slick-dots li button {
     width: 13px;
@@ -443,7 +437,6 @@
     overflow-x: scroll;
   }
 }
-
 @media (max-width: 520px) {
   .create-acc {
     width: 100%;
@@ -510,7 +503,6 @@
     top: 56px;
   }
 }
-
 @media (max-width: 495px) {
   .user__info {
     display: none;
@@ -525,9 +517,8 @@
     padding: 0 10px;
   }
 }
-
 @media (max-width: 390px) {
-  .fancybox-content{
+  .fancybox-content {
     padding: 44px 10px;
   }
   .header__box {
@@ -542,7 +533,6 @@
     left: 10px;
   }
 }
-
 @media (max-width: 360px) {
   .user {
     margin-right: 0;
@@ -557,7 +547,6 @@
     left: -20px;
   }
 }
-
 @media (min-width: 841px) {
   .menu__list {
     display: block !important;

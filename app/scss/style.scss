@@ -183,7 +183,6 @@
     }
   }
 }
-
 .circle__menu {
   border-top: 1px solid #e0e0e0;
   top: 61px;
@@ -480,7 +479,7 @@
   padding: 110px 0px;
 }
 .products__wrapper,
-.product__slider-wrapper{
+.product__slider-wrapper {
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -508,7 +507,7 @@
   margin-left: -30px;
   flex-wrap: wrap;
 }
-.products .product__item{
+.products .product__item {
   flex-basis: calc(25% - 30px);
   margin-left: 30px;
 }
@@ -789,7 +788,6 @@
   color: $bg;
   border-bottom: 3px solid $green;
 }
-
 //end tabs
 //start asside
 .product-one__asside {
@@ -798,18 +796,18 @@
     justify-content: space-between;
     padding: 30px 0;
     .jq-selectbox__select {
-  height: 27px;
-  padding: 0 26px 0 10px;
-  border: 1px solid #ccc;
-  border-bottom-color: none;
-  border-radius: none;
-  background: #fff;
-  box-shadow: none;
-  font: 13px/24px "Roboto-Regular", sans-serif;
-  font-weight: 400;
-  color: #70838d;
-  text-shadow: none;
-}
+      height: 27px;
+      padding: 0 26px 0 10px;
+      border: 1px solid #ccc;
+      border-bottom-color: none;
+      border-radius: none;
+      background: #fff;
+      box-shadow: none;
+      font: 13px/24px "Roboto-Regular", sans-serif;
+      font-weight: 400;
+      color: #70838d;
+      text-shadow: none;
+    }
     .jq-selectbox__trigger-arrow {
       border: none;
       top: -6px;
@@ -1049,7 +1047,6 @@
     width: 86px;
   }
 }
-
 // end adventages
 //start autors
 .author {
@@ -2358,7 +2355,7 @@ button.icon-sort-amount-desc {
   align-items: center;
   font-size: 13px;
   color: #444;
-  &:nth-child(odd){
+  &:nth-child(odd) {
     background-color: #f9f9f9;
   }
 }
@@ -2378,11 +2375,10 @@ button.icon-sort-amount-desc {
 .withdrawals__content-status {
   width: 88px;
   @include f700;
-  
+
   &.withdrawals__content-paid {
     color: $green;
   }
 }
-
 //end withdrawals
 @import "media";
